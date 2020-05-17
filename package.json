@@ -5,8 +5,7 @@
    "private": true,
    "scripts": {
         "start": "node app.js",
-        "debug": "NODE_ENV=development node app.js",
-        "test": "./node_modules/.bin/mocha ./tests/app.spec.ts",
+        "debug": "NODE_ENV=development node app.js"
     },
    "dependencies": {
       "express": "3.12.0"
