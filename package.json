@@ -1,0 +1,18 @@
+{
+   "name": "node-app",
+   "description": "hello jenkins test app",
+   "version": "0.0.1",
+   "private": true,
+   "scripts": {
+        "start": "node app.js",
+        "debug": "NODE_ENV=development node app.js",
+        "test": "./node_modules/.bin/mocha ./tests/app.spec.ts",
+    },
+   "dependencies": {
+      "express": "3.12.0"
+   },
+   "devDependencies": {
+      "mocha": "1.20.1",
+      "supertest": "0.13.0"
+   }
+}

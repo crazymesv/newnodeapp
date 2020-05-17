@@ -1,0 +1,8 @@
+/nbproject/
+/node_modules
+/node/node_modules
+/logs/access.log
+/logs/error.log
+/out
+/nbproject/private/
+nbproject/private/private.xml
